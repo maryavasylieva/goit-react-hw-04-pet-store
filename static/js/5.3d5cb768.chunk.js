@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{63:function(e,a,o){e.exports=o.p+"static/media/fluffy-paws-master-logo28.ce5f0803.png"},65:function(e,a,o){"use strict";o.r(a);var t=o(1),n=o.n(t),l=o(9),s=o.n(l),c=o(63);a.default=function(){return n.a.createElement("div",{className:s.a.logoImg},n.a.createElement("h1",null,'Welcome to our online pet store "Fluffy\'s Paws"'),n.a.createElement("img",{src:c,alt:"logo",className:s.a.logo}))}}}]);
+//# sourceMappingURL=5.3d5cb768.chunk.js.map

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-04-pet-store/static/css/main.2f2205e1.chunk.css",
+    "main.js": "/goit-react-hw-04-pet-store/static/js/main.92d71c10.chunk.js",
+    "main.js.map": "/goit-react-hw-04-pet-store/static/js/main.92d71c10.chunk.js.map",
+    "runtime~main.js": "/goit-react-hw-04-pet-store/static/js/runtime~main.acd02264.js",
+    "runtime~main.js.map": "/goit-react-hw-04-pet-store/static/js/runtime~main.acd02264.js.map",
+    "static/js/2.04042c73.chunk.js": "/goit-react-hw-04-pet-store/static/js/2.04042c73.chunk.js",
+    "static/js/2.04042c73.chunk.js.map": "/goit-react-hw-04-pet-store/static/js/2.04042c73.chunk.js.map",
+    "static/css/3.2fd1c69d.chunk.css": "/goit-react-hw-04-pet-store/static/css/3.2fd1c69d.chunk.css",
+    "static/js/3.f263d13a.chunk.js": "/goit-react-hw-04-pet-store/static/js/3.f263d13a.chunk.js",
+    "static/js/3.f263d13a.chunk.js.map": "/goit-react-hw-04-pet-store/static/js/3.f263d13a.chunk.js.map",
+    "static/js/4.e9aa5f9b.chunk.js": "/goit-react-hw-04-pet-store/static/js/4.e9aa5f9b.chunk.js",
+    "static/js/4.e9aa5f9b.chunk.js.map": "/goit-react-hw-04-pet-store/static/js/4.e9aa5f9b.chunk.js.map",
+    "static/js/5.3d5cb768.chunk.js": "/goit-react-hw-04-pet-store/static/js/5.3d5cb768.chunk.js",
+    "static/js/5.3d5cb768.chunk.js.map": "/goit-react-hw-04-pet-store/static/js/5.3d5cb768.chunk.js.map",
+    "static/js/6.364e2bb5.chunk.js": "/goit-react-hw-04-pet-store/static/js/6.364e2bb5.chunk.js",
+    "static/js/6.364e2bb5.chunk.js.map": "/goit-react-hw-04-pet-store/static/js/6.364e2bb5.chunk.js.map",
+    "index.html": "/goit-react-hw-04-pet-store/index.html",
+    "precache-manifest.1bda53eaa14571ee2add80ff6e0d5f25.js": "/goit-react-hw-04-pet-store/precache-manifest.1bda53eaa14571ee2add80ff6e0d5f25.js",
+    "service-worker.js": "/goit-react-hw-04-pet-store/service-worker.js",
+    "static/css/3.2fd1c69d.chunk.css.map": "/goit-react-hw-04-pet-store/static/css/3.2fd1c69d.chunk.css.map",
+    "static/css/main.2f2205e1.chunk.css.map": "/goit-react-hw-04-pet-store/static/css/main.2f2205e1.chunk.css.map",
+    "static/media/fluffy-paws-master-logo28.png": "/goit-react-hw-04-pet-store/static/media/fluffy-paws-master-logo28.ce5f0803.png"
+  }
+}
