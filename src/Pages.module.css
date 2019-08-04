@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(78, 63, 114);
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  color: #b3a4d6;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+}
+
+.active {
+  color: rgb(115, 130, 216);
+}
+
+.logoImg {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: rgb(80, 56, 138);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutTitle {
+  margin-top: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(80, 56, 138);
+  font-size: 35px;
+}
+
+.aboutDescription {
+  line-height: 35px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.petsList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+
+.petsItem {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  width: 350px;
+  padding: 20px;
+  /* border: 1px solid #000; */
+  margin-bottom: 30px;
+}
+
+.petLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.petImage {
+  display: block;
+  max-width: 100%;
+  /* height: 250px; */
+  height: auto;
+  /* width: 300px; */
+  /* height: 250px; */
+  margin-bottom: 10px;
+}
+
+.petName {
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(80, 56, 138);
+  font-family: "Quicksand", sans-serif;
+}
+
+.petsHeadline {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  color: rgb(80, 56, 138);
+}
+
+.button {
+  display: block;
+  margin-top: 50px;
+  background-color: rgb(20, 3, 53);
+  color: #fff;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
