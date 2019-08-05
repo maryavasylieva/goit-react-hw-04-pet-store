@@ -1,8 +1,8 @@
-.switch-wrapper {
+.anim-wrapper {
   position: relative;
 }
 
-.switch-wrapper > div {
+.anim-wrapper > div {
   position: absolute;
   top: 0;
   left: 0;
