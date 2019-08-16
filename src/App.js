@@ -1,10 +1,8 @@
 import React, { lazy, Suspense } from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom';
 import Navigation from './Components/Navigation';
 import AwesomeComponent from './Components/Preloader';
-import { AnimatedSwitch } from 'react-router-transition';
 import './Components/Animation/animation.css';
-import { bounceTransition, mapStyles } from './Components/Animation/Animation';
 
 const AsyncHome = lazy(
   () => import('./Pages/Home') /* webpackChunkName: "home-page" */,
@@ -29,19 +27,13 @@ const App = () => (
         </div>
       }
     >
-      <AnimatedSwitch
-        atEnter={bounceTransition.atEnter}
-        atLeave={bounceTransition.atLeave}
-        atActive={bounceTransition.atActive}
-        mapStyles={mapStyles}
-        className="anim-wrapper"
-      >
+      <Switch>
         <Route exact path="/" component={AsyncHome} />
         <Route path="/about" component={AsyncAbout} />
         <Route path="/pets/:id" component={AsyncPetPages} />
         <Route path="/pets" component={AsyncPets} />
         <Redirect to="/" />
-      </AnimatedSwitch>
+      </Switch>
     </Suspense>
   </>
 );
