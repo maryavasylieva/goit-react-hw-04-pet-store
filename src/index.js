@@ -4,8 +4,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter basename="/">
     <Route component={App} />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root'),
 );
